@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table.CHESS
+        {
+          border-collapse: collapse;
+        }
+      
+        table.CHESS td
+        {
+          width: 50px;
+          height: 50px;
+          border: solid gray 1px;
+        }
+        table .one td{
+    background: lightgreen !important;
+    border: solid gray 1px;
+    height: 15px;
+}
+ table .ten td{
+    background: lightgreen !important;
+    border: solid gray 1px;
+    height: 15px;
+}
+tr td:first-child {
+	background: lightgreen !important;
+    width: 15px;
+    height: 15px;
+    border: solid gray 1px;
+}
+
+ tr td:last-child { 
+	background: lightgreen !important;
+    width: 15px;
+    height: 15px;
+    border: solid gray 1px;
+}
+        table.CHESS tr:nth-child(odd) td:nth-child(odd) {
+	background: black;
+        }	
+        table.CHESS tr:nth-child(even) td:nth-child(even) {
+	background: black;
+        }   
+    /* или прописать каждой строке класс, после чего назначить цвет каждомй td */
+   </style> 
+     
+</head>
+<body>
+    
+    <table class='CHESS'>
+        <tr class="one">
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr class="ten">
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td> 
+        </tr>
+        </table>
+        
+</body>
+</html>
