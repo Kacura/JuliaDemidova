@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .visible {
+        display: inline-flex;
+        flex-direction: row-reverse;
+    }
+    .star {
+        cursor: pointer;
+    }
+    .star:hover,
+    .star:hover~.star{
+        content: url(star1.png);
+    }
+     
+</style>
+</head>
+<body>
+        <div class="visible">
+           <div class="star"><img src="star0.png"></div>
+           <div class="star"><img src="star0.png"></div>
+           <div class="star"><img src="star0.png"></div>
+           <div class="star"><img src="star0.png"></div>
+           <div class="star"><img src="star0.png"></div>
+        </div>
+    <br>
+    <a href="https://www.youtube.com/watch?v=d5XLXaouWTg&t=172s">Рациональный подход</a>
+</body>
+</html>
