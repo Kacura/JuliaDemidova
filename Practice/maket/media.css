@@ -1,3 +1,11 @@
-@media screen and (max-width){
-    
+@media screen and (max-width: 800){
+    .header {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 300){
+    .banner.menu {
+        float: none;
+    }
 }
