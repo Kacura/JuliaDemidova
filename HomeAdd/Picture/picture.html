@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    span {
+        color: blue;
+    }
+    picture {
+        padding-left: 20px;
+    }
+</style>
+</head>
+<body>
+    <h3>Тег Picture </h3>
+<p>
+    Контейнер, в котором должен быть один тег <span>img</span> и элементы <span>source</span> с разными источниками 
+    и условиями отображения. Браузер подберет подходящее изображение из элемента <span>source</span> или использует 
+    источник в теге <span>img</span>, если подходящего источника не было найдено.
+</p>
+<br>
+<picture>
+    <source media="(max-width: 650px)" srcset="perlach.jfif"></source>
+    <source media="(max-width: 300px)" srcset="perlach.jfif"></source>
+    <img src="perlach.jfif" alt=""></img>
+</picture>
+<picture>
+    <source media="(max-width: 650px)" srcset="ris.jfif"></source>
+    <source media="(max-width: 300px)" srcset="ris.jfif"></source>
+    <img src="ris.jfif" alt=""></img>
+</picture>
+</body>
+</html>
