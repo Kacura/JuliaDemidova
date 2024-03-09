@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    .header, .footer {
+        background-color: cyan;
+    }
+}
+@media screen and (max-width: 860){
+    .header, .footer {
+        background-color: yellow;
+    }
+    .banner {
+        float: left;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 300){
+    .banner.menu {
+        float: none;
+        width: auto;
+    }
+    .header, .footer {
+        border: none;
+    }
+    .attach {
+        background-color: black;
+    }
+}

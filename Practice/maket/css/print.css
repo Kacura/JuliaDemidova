@@ -1,0 +1,11 @@
+@media print {
+    .banner, .menu {
+        background-color: gray;
+    }
+    .attach {
+        width: 250px;
+    }
+    .header, .footer, .banner, .menu {
+        border: none;
+    }
+}
