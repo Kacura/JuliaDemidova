@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formfirst {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 320px;
+    border: double green 3px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    line-height: 170%;
+}
+p {
+    margin-top: 10px;
+}
+.first {
+    width: 270px;
+}
+.second {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+    border: double green 3px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    line-height: 170%;
+    display: table inline-block;
+}
+.center {
+    display: table-cell;
+    vertical-align: middle;
+    float: right;
+    margin-right: 20px;
+}
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+.center articlesec {
+    width: 300px;
+}
+.secondtext {
+    width: 500px;
+}
+

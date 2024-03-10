@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="CSS/links.css">
+</head>
+<body>
+    <div class="formfirst">
+        <p>Для публикации Вашей статьи заполните, пожалуйста, следующую форму:</p>
+    <form method="post" action="TestForm.php" target="_blank">
+        Название статьи: <br>
+        <input type="text" name="article"> <br>
+        Рубрика: <br>
+        <select name="heading" id="">
+            <option value="1">компьютерная техника</option>
+            <option value="2">оптика</option>
+            <option value="3">программирование</option>
+            <option value="4">графика и дизайн</option>
+        </select> <br>
+        Публикация: <br>
+        <input type="radio" name="answer" value="1"> на сайте <br>
+        <input type="radio" name="answer" value="1"> в журнале <br>
+        <input type="radio" name="answer" value="1"> на сайте и в журнале <br>
+        <input type="hidden" name="survey" value="111"> <br>
+        Разрешить комментарии: 
+        <input type="checkbox" name="allow" checked> <br>
+        Текст статьи: <br>
+        <textarea class="first" name="script" ></textarea><br>
+        <input type="submit" value="Опубликовать">  <br>
+    </form>
+    </div>
+    <br>
+    <div class="second clearfix">
+        <p>Для публикации Вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <form method="post" action="TestForm.php" target="_blank" class="wide">
+            <span>Название статьи: </span>
+            <div class="center"><input type="text" name="articlesec"></div> <br>
+           <span> Рубрика: </span>
+            <div class="center"><select name="heading" id="">
+                <option value="1">компьютерная техника</option>
+                <option value="2">оптика</option>
+                <option value="3">программирование</option>
+                <option value="4">графика и дизайн</option>
+            </select></div> <br>
+           <span> Публикация: </span>
+            <div class="center answer"><input type="radio" name="answer" value="1"> на сайте 
+            <input type="radio" name="answer" value="1"> в журнале 
+            <input type="radio" name="answer" value="1"> на сайте и в журнале 
+            <input type="hidden" name="survey" value="111"></div> <br>
+            <span>Разрешить комментарии: </span>
+            <div class="center"><input type="checkbox" name="allow" checked></div><br>
+            <span>Текст статьи:</span> <br>
+            <textarea class="secondtext" name="script"></textarea><br>
+            <input type="submit" value="Опубликовать">  <br>
+        </form>
+    </div>
+</body>
+</html>
