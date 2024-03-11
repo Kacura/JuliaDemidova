@@ -27,13 +27,13 @@ p {
     padding-left: 15px;
     padding-bottom: 15px;
     line-height: 170%;
-    display: table inline-block;
+    display: block;
 }
 .center {
-    display: table-cell;
-    vertical-align: middle;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
     float: right;
-    margin-right: 20px;
+    margin: auto;
 }
 .clearfix{
     content: "";
