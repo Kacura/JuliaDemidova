@@ -36,7 +36,7 @@ p {
     clear: both;
 }
 .center articlesec {
-    width: 300px;
+    width: 40%;
 }
 .secondtext {
     width: 95%;
@@ -44,3 +44,4 @@ p {
 label {
 display: inline-block;
 }
+
