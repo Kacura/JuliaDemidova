@@ -27,14 +27,9 @@ p {
     padding-left: 15px;
     padding-bottom: 15px;
     line-height: 170%;
-    display: block;
+    display: inline-block;
 }
-.center {
-    /* display: table-cell; */
-    /* vertical-align: middle; */
-    float: right;
-    margin: auto;
-}
+
 .clearfix{
     content: "";
     display: block;
@@ -44,6 +39,8 @@ p {
     width: 300px;
 }
 .secondtext {
-    width: 500px;
+    width: 95%;
 }
-
+label {
+display: inline-block;
+}

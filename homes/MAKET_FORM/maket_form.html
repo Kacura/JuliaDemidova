@@ -35,22 +35,23 @@
     <div class="second clearfix">
         <p>Для публикации Вашей статьи заполните, пожалуйста, следующую форму:</p>
         <form method="post" action="TestForm.php" target="_blank" class="wide">
-            Название статьи: 
-            <div class="center"><input type="text" name="articlesec"></div> <br>
-            Рубрика: 
-            <div class="center"><select name="heading" id="">
+             
+            <label> Название статьи:<input type="text" name="articlesec">
+            </label> <br>
+             
+            <label class="center"> Рубрика:<select name="heading" id="">
                 <option value="1">компьютерная техника</option>
                 <option value="2">оптика</option>
                 <option value="3">программирование</option>
                 <option value="4">графика и дизайн</option>
-            </select></div> <br>
-            Публикация: 
-            <div class="center answer"><input type="radio" name="answer" value="1"> на сайте 
+            </select></label> <br>
+             
+            <label class="center answer"> Публикация:<input type="radio" name="answer" value="1"> на сайте 
             <input type="radio" name="answer" value="1"> в журнале 
             <input type="radio" name="answer" value="1"> на сайте и в журнале 
-            <input type="hidden" name="survey" value="111"></div> <br>
-            Разрешить комментарии: 
-            <div class="center"><input type="checkbox" name="allow" checked></div><br>
+            <input type="hidden" name="survey" value="111"></label> <br>
+             
+            <label class="center"> Разрешить комментарии:<input type="checkbox" name="allow" checked></label><br>
             Текст статьи: <br>
             <textarea class="secondtext" name="script"></textarea><br>
             <input type="submit" value="Опубликовать">  <br>
