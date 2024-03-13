@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap {
+    margin-bottom: 30px;
+}
+.after {
+    margin-top: 30px;
+}
+.images {
+    position: relative;
+    height: 290px;
+    margin: auto;
+    text-align: center;
+}
+
+.bio {
+position: absolute;
+width: 200px;
+height: 200px;
+top: -40px;
+right: 675px;
+}
+.people {
+position: absolute;
+width: 200px;
+height: 223px;
+top: -50px;
+right: 457px;
+}
+.smok {
+position: absolute;
+width: 256px;
+height: 256px;
+right: 550px;
+background-image: url(../images/No_smoking.png);
+}
+.yin {
+position: absolute;
+bottom: -40px;
+right: 568px;
+width: 200px;
+height: 200px;
+border: solid transparent 1px;
+}
+.yin:hover .smok {
+    z-index: 2; 
+    /* opacity: 0; */
+}

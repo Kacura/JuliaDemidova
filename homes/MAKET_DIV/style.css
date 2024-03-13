@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: lightgreen;
+    width: 100px;
+    height: 50px;
+    border: solid 1px green;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+}
+
