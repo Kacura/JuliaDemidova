@@ -1,0 +1,78 @@
+.header, .footer {
+    background-color: cadetblue;
+    height: 80px;
+    display: flex;
+    border: solid black 1px;
+}
+.wrap {
+    display: flex;
+    height: 200px;
+}
+.menu {
+width: 200px;
+background-color: lightgreen;
+border: solid black 1px;
+
+}
+.content {
+    width: 200px;
+    flex-grow: 1;
+    background-color: mediumpurple;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid black 1px;
+}
+.banner {
+width: 200px;
+background-color: lightgreen;
+border: solid black 1px;
+
+}
+.item {
+    width: 180px;
+    height: 40px;
+    background-color: yellow;
+    border: solid black 1px;
+
+}
+.header {
+    justify-content: space-between;
+    align-items: center;
+
+}
+.imenu {
+    width: 180px;
+    height: 20px;
+    background-color: yellow;
+    border: solid black 1px;
+    margin: auto;
+    margin-top: 20px;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    border: solid black 1px;
+    margin: auto;
+    margin-top: 20px;
+}
+.number {
+    width: 120px;
+    height: 120px;
+    border: solid black 1px;
+    background-color: rgb(136, 173, 243);
+}
+.one {
+    align-self: flex-start;
+    margin-top: 10px;
+    
+}
+.three {
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+.five {
+    align-self: flex-start;
+    margin-top: 20px;
+}
