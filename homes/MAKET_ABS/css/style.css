@@ -13,7 +13,7 @@
     position: relative;
     height: 290px;
     margin: auto;
-    text-align: center;
+    display: block;
 }
 
 .bio {
@@ -22,6 +22,7 @@ width: 200px;
 height: 200px;
 top: -40px;
 right: 675px;
+z-index: -1;
 }
 .people {
 position: absolute;
@@ -29,6 +30,7 @@ width: 200px;
 height: 223px;
 top: -50px;
 right: 457px;
+z-index: -1;
 }
 .smok {
 position: absolute;
@@ -44,8 +46,8 @@ right: 568px;
 width: 200px;
 height: 200px;
 border: solid transparent 1px;
+z-index: -1;
 }
-.yin:hover .smok {
-    z-index: 2; 
-    /* opacity: 0; */
+.bio:hover .smok {
+    z-index: 3;
 }

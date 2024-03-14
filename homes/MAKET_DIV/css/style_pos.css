@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix {
+    content:"";
+    display: block;
+    clear: both;
+}
+.header, .footer {
+    background-color: cyan; 
+    text-align: center; 
+    height: 50px; 
+    padding-top: 20px; 
+    color: darkblue;
+}
+.menu {
+   background: url(../images/back2.png) left top repeat-y;
+     width: 150px; 
+     float: left; 
+     margin-right: 15px;
+}
+.script {
+    background: url(../images/ball.png) repeat-y top right;  
+    text-align: center; 
+    padding-top: 15px;
+    line-height: 150%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.image {
+    float: left; 
+    margin-right: 7px; 
+    padding-top: 12px;
+}
+p {
+    text-align: justify;
+}
+.wrap {
+    background: url(../images/back2.png) left top repeat-y;
+}
