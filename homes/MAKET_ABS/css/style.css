@@ -11,9 +11,11 @@
 }
 .images {
     position: relative;
+    width: 400px;
     height: 290px;
     margin: auto;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .bio {
@@ -21,32 +23,29 @@ position: absolute;
 width: 200px;
 height: 200px;
 top: -40px;
-right: 675px;
-z-index: -1;
+right: 265px;
 }
 .people {
 position: absolute;
 width: 200px;
 height: 223px;
+right: 55px;
 top: -50px;
-right: 457px;
-z-index: -1;
 }
 .smok {
 position: absolute;
 width: 256px;
 height: 256px;
-right: 550px;
+z-index: 1;
 }
 .yin {
 position: absolute;
-bottom: -40px;
-right: 568px;
+bottom: -55px;
+right: 170px;
 width: 200px;
 height: 200px;
 border: solid transparent 1px;
-z-index: -1;
 }
-.bio:hover .smok {
+.yin:hover .smok {
     z-index: 3;
 }

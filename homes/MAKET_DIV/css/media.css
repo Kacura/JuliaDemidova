@@ -1,0 +1,39 @@
+@media all and (max-width: 1000px) {
+    .menu, .wrap {
+        background: url(../images/bricks.png) left top repeat-y;
+    }
+    .menu {
+        width: 25%;
+        padding-top: 10%;
+    }
+    .script {
+        margin-left: 25%;
+    }
+}
+@media all and (max-width: 800px) {
+    .footer, .header {
+        background-color: darkblue;
+        color: aliceblue;
+    }
+    .menu {
+        float: none;
+        background-image: none;
+        background-color: cyan;
+        display: inline;
+    }
+    .menu li {
+        display: inline-block;
+    }
+    .wrap {
+        background-image: none;
+    }
+    .script {
+        display: inline;
+    }
+    .sign {
+        background-color: indigo;
+    }
+    .sign a {
+        color: aliceblue;
+    }
+}

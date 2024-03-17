@@ -41,3 +41,17 @@ p {
 .wrap {
     background: url(../images/back2.png) left top repeat-y;
 }
+.sign {
+    position: fixed;
+    left: 90%;
+    top: 5%;
+    width: 75px;
+    height: 45px;
+    background-color: chartreuse;
+    border: solid green 1px;
+    letter-spacing: normal;
+    text-align: center;
+}
+.sign a {
+    text-decoration: none;
+}
