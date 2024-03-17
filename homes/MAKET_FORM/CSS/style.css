@@ -29,19 +29,21 @@ p {
     line-height: 170%;
     display: inline-block;
 }
-
-.clearfix{
+span {
+    float: left;
+    width: 30%;
+}
+.NAME {
+    width: 70%;
+    display: inline;
+}
+.secondtext {
+    width: 100%;
+    display: inline;
+}
+.clearfix {
     content: "";
     display: block;
     clear: both;
-}
-.center articlesec {
-    width: 40%;
-}
-.secondtext {
-    width: 95%;
-}
-label {
-display: inline-block;
 }
 
