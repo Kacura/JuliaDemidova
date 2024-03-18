@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.header .container{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.container li {
+    display: inline-flex;
+    align-items: center;
+}
+button {
+    background-color: #FFA800;
+    color: #FFFFFF;
+    border-color: #FFA800;
+    width: 140px;
+    height: 35px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+.vhod {
+    margin-right: 15px;
+}
