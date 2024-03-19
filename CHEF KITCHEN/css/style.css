@@ -13,21 +13,224 @@
     margin-top: 10px;
     justify-content: space-between;
 }
+.logo {
+    width: 183px;
+    height: 62px; 
+}
+.verhMenu {
+    display: flex;
+    width: 432px;
+    height: 16px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
 .container li {
     display: inline-flex;
     align-items: center;
 }
-button {
+.tel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zvon {
+    width: 18px;
+    height: 18px;
+}
+.mova {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #302929;
+}
+
+.vojti {
     background-color: #FFA800;
     color: #FFFFFF;
-    border-color: #FFA800;
     width: 140px;
     height: 35px;
     border-radius: 32px;
     display: flex;
     justify-content: flex-start; 
     align-items: center;
+    border: none;
+    margin-top: 10px;
+    padding-left: 3px;
 }
 .vhod {
     margin-right: 15px;
+}
+.mainpicture .container {
+    background-color: #B0CC0D;
+    height: 450px;
+    border-radius: 55px;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    padding-left: 60px;
+    padding-top: 45px;
+    flex-direction: column;
+}
+.slogan {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 100%;
+    text-transform: uppercase;  
+}
+ .diet {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 25px;
+line-height: 236%;
+color: #000;
+}
+.choise {
+border-radius: 32px;
+padding: 18px 27px;
+width: 202px;
+height: 55px;
+background: #ffa800;
+border: none;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #fff;
+}
+.buter{
+position: absolute;
+width: 750px;
+right: -10px;
+bottom: -80px;
+}
+.goroh {
+position: absolute;
+width: 244px;
+transform: rotate(-10deg);
+right: -65px;
+bottom: -100px;
+}
+.zel1 {
+position: absolute;
+width: 225px;
+transform: rotate(10deg);
+bottom: -110px;
+left: -80px;
+}
+.zel2 {
+position: absolute;  
+width: 293px;
+transform: rotate(-3deg);
+top: -100px;
+right: 460px;
+}
+.zel3 {
+position: absolute; 
+width: 131px;
+transform: rotate(-5deg); 
+bottom: -60px;
+left: 530px;
+}
+.vybor .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.MENU {
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 32px;
+line-height: 120%;
+text-transform: uppercase;
+color: #000;
+}
+.vkusy{
+    height: 47px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.vkusy li{
+    display: inline-flex;
+}
+.vkusy button {
+border-radius: 10px;
+padding: 6px 26px;
+height: 47px;
+background: #d9d9d9;
+border: none;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 120%;
+text-transform: uppercase;
+text-align: center;
+color: #6a6a6a;
+line-height: 80%;
+}
+.vkusy button:hover {
+    background: #b0cc0d;
+    color: #fff;
+    text-decoration: underline;
+}
+.vkusy span {
+    font-weight: 400;
+    font-size: 12px;
+}
+.slider .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+    background: #8ec038;
+}
+.week {
+    width: 888px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.week button {
+border-radius: 12px;
+padding: 14px 38px;
+max-width: 136px;
+height: 47px;
+background: rgba(255, 255, 255, 0.5);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+color: #302929;
+border: none;
+padding-right: 15px;
+padding-left: 15px;
+}
+.week button:hover {
+    background: #fff;
+}
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow span {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+padding-left: 15px;
+padding-right: 15px;
 }
