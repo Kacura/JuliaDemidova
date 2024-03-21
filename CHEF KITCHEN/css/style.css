@@ -493,3 +493,46 @@
     line-height: 120%;
     color: #000;
 }
+.search {
+    height: 651px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.search span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+    padding-left: 50px;
+}
+.search form {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+.search input {
+    border-radius: 23px;
+    width: 100%;
+    height: 68px;
+    position: relative;
+    background: #f4f4f4;
+    border: none;
+}
+.lupa {
+    position: absolute;
+    right: 80px;
+    top: 20px;
+}
+.map {
+    border-radius: 22px;
+    width: 1200px;
+    height: 468px;
+}
+.map iframe {
+    border-radius: 22px;
+    width: 1200px;
+    height: 468px;
+}
