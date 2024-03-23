@@ -1,0 +1,40 @@
+@media mobile and (max-width: 320px) {
+    .container {
+        width: 280px;
+        margin: 0 auto;
+    }
+    .header .container{
+        display: flex;
+        margin-top: 5px;
+        justify-content: space-between;
+    }
+    .verhMenu {
+        display: none;
+    }
+    .logo {
+    width: 103px;
+    height: 35px;
+    }
+    .vojti {
+        background-color: #FFA800;
+        color: #FFFFFF;
+        width: 36px;
+        height: 35px;
+        border-radius: 100%;
+    }
+    .mainpicture .container {
+        background-color: #B0CC0D;
+        width: 280px;
+        height: 441px;
+        border-radius: 21px;
+        margin-top: 30px;
+        display: flex;
+        position: relative;
+    }
+    .slogan { 
+        display: none;
+    }
+    .diet {
+        display: none;
+    }
+}
