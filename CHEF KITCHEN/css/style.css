@@ -23,6 +23,11 @@
     height: 16px;
     justify-content: space-between;
     margin-top: 25px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #302929;
 }
 .container li {
     display: inline-flex;
@@ -41,7 +46,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -60,6 +65,13 @@
     border: none;
     margin-top: 10px;
     padding-left: 3px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #fff;
+    
 }
 .vhod {
     margin-right: 15px;
@@ -75,15 +87,16 @@
     padding-top: 45px;
     flex-direction: column;
 }
-.slogan {
-    color: #FFFFFF;
+.slogan { 
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 65px;
     line-height: 100%;
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    color: #fff;
 }
  .diet {
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 400;
     font-size: 25px;
     line-height: 236%;
@@ -96,7 +109,7 @@
     height: 55px;
     background: #ffa800;
     border: none;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 16px;
     line-height: 120%;
@@ -104,7 +117,7 @@
 }
 .buter{
     position: absolute;
-    width: 750px;
+    width: 740px;
     right: -10px;
     bottom: -80px;
 }
@@ -134,7 +147,15 @@
     width: 131px;
     transform: rotate(-5deg); 
     bottom: -60px;
-    left: 530px;
+    left: 495px;
+}
+.svg {
+    fill: #fff;
+    width: 583px;
+    height: 534px;
+    position: absolute;
+    right: 78px;
+    top: 8px;
 }
 .vybor .container {
     display: flex;
@@ -144,7 +165,7 @@
     margin-top: 50px;
 }
 .MENU {
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 32px;
     line-height: 120%;
@@ -166,7 +187,7 @@
     height: 47px;
     background: #d9d9d9;
     border: none;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 18px;
     line-height: 120%;
@@ -197,6 +218,8 @@
     background: #8ec038; 
     border-radius: 20px;
     height: 700px;
+    width: 1200px;
+    margin: 0 auto;
 }
 .week {
     width: 888px;
@@ -210,7 +233,7 @@
     max-width: 136px;
     height: 47px;
     background: rgba(255, 255, 255, 0.5);
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 500;
     font-size: 16px;
     line-height: 120%;
@@ -229,7 +252,7 @@
     align-items: center;
 }
 .arrow span {
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
@@ -246,7 +269,7 @@
     background: #ffa800;
     border-radius: 5px;
     color: #fff;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 300;
     font-size: 16px;
     line-height: 120%;
@@ -271,7 +294,7 @@
     margin-top: 25px;
 }
 .dish {
-    width: 218px;
+    width: 200px;
     height: 347px;
     display: flex;
     justify-content: space-between;
@@ -286,7 +309,7 @@
     padding: 0px;
 }
 .dish span {
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 500;
     font-size: 16px;
     line-height: 120%;
@@ -297,21 +320,21 @@
     top: 155px;
 }
 .namedish {
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 16px;
     line-height: 120%;
     color: #000;
     padding-left: 15px;
     position: absolute;
-    top: 200px;
+    top: 181px;
 }
 .energy {
-    font-family: var(--font-family);
+    font-family: Montserrat light;
     font-weight: 300;
     font-size: 12px;
     line-height: 180%;
-    color: #272424;
+    color: #0a0909;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -326,7 +349,7 @@
     background: #ffa800;
     position: absolute;
     text-align: center;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 800;
     font-size: 24px;
     line-height: 120%;
@@ -343,7 +366,7 @@
     background: #ffa800;
     position: absolute;
     text-align: center;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 800;
     font-size: 24px;
     line-height: 120%;
@@ -360,7 +383,7 @@
     background: #ffa800;
     position: absolute;
     text-align: center;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 800;
     font-size: 24px;
     line-height: 120%;
@@ -377,7 +400,7 @@
     background: #ffa800;
     position: absolute;
     text-align: center;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 800;
     font-size: 24px;
     line-height: 120%;
@@ -394,7 +417,7 @@
     background: #ffa800;
     position: absolute;
     text-align: center;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 800;
     font-size: 24px;
     line-height: 120%;
@@ -427,7 +450,7 @@
     right: 2px;
 }
 .polza {
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
@@ -460,7 +483,7 @@
     width: 207px;
     height: 60px;
     background: #ffa800;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 20px;
     line-height: 120%;
@@ -478,7 +501,7 @@
     width: 241px;
     height: 55px;
     background: #ffa800;
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 16px;
     line-height: 120%;
@@ -487,7 +510,7 @@
     align-self: center;
 }
 .order span {
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -500,7 +523,7 @@
     margin-top: 55px;
 }
 .search span {
-    font-family: var(--font-family);
+    font-family: Montserrat;
     font-weight: 700;
     font-size: 32px;
     line-height: 120%;
@@ -535,4 +558,91 @@
     border-radius: 22px;
     width: 1200px;
     height: 468px;
+}
+.advantage {
+    height: 248px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.advantage span {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+}
+.advant {
+    display: flex;
+    justify-content: space-between;
+}
+figcaption {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+figure {
+    text-align: justify;
+    width: 183px;
+    height: 165px;
+}
+.advant img {
+    padding-left: 25px;
+    width: 116px;
+    height: 82px;
+}
+.promo {
+    width: 1646px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    background: #b0cc0d;
+    padding-left: 70px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.promo span:first-of-type {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.promo span:last-of-type {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #fff;
+} 
+.promo button {
+    border-radius: 32px;
+    padding: 18px 27px;
+    width: 182px;
+    height: 61px;
+    background: #ffa800;
+    color: #fff;
+    border: none;
+}
+.ssoboj {
+    position: absolute;
+    width: 476px;
+    transform: rotate(-15deg);
+    left: 800px;
+    top: -60px;
+}
+.salat {
+    position: absolute;
+    width: 472px;
+    height: 318px;
+    right: 1px;
+    top: -38px;
 }
