@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;
-    1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;
     0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div>
-    <div class="container">
-        <div class="wrap clearfix">
+    <div class="wrap">
+        <div class="container">
             <div class="left">
                 <img class="metka" src="../MEBEL/images/Group 365.png" alt="" >
                 <a href="">г. Набережные Челны</a>
@@ -28,56 +28,68 @@
             </div>
         </div>
     </div>
-</div>
-<div>
-    <div class="container">
-        <div class="logoleft">
-        <img class="logo" src="../MEBEL/images/logo.png" alt="">
-            <button class="catalog">Каталог товаров</button>
-            <form class="search" action="">
-                <input class="najti" type="search">
-            </form>
+    <div class="poisk">
+        <div class="container">
+            <div class="logo">
+                <img src="../MEBEL/images/logo.png" alt="">
+                <button>Каталог товаров</button>
+                <input type="search" placeholder="&nbsp;&nbsp;&nbsp;найти...">
+            </div>
+            <div class="ikonki">
+                <ul>
+                    <li><figure><img src="../MEBEL/images/Vector1.png" alt=""><figcaption>Войти</figcaption></figure></li>
+                    <li><figure><img src="../MEBEL/images/Vector.png" alt=""><figcaption>Избранное</figcaption></figure></li>
+                    <li><figure><img src="../MEBEL/images/Group 2.png" alt=""><figcaption>Сравнение</figcaption></figure></li>
+                    <li><figure><img src="../MEBEL/images/Group 3.png" alt=""><figcaption>Корзина</figcaption></figure></li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+    <div class="linemenu">
+        <div class="container">
             <ul>
-                <li><figure><img src="../MEBEL/images/Vector1.png" alt="" ><figcaption>Войти</figcaption></figure></li>
-                <li><figure></figure><img src="../MEBEL/images/Vector.png" alt=""><figcaption>Избранное</figcaption></figure></li>
-                <li><figure></figure><img src="../MEBEL/images/Group 2.png" alt=""  style="height: 24px;"><figcaption>Сравнение</figcaption></figure></li>
-                <li><figure></figure><img src="../MEBEL/images/Group 3.png" alt=""  style="height: 24px;"><figcaption>Корзина</figcaption></figure></li>
+                <li>Распродажа</li>
+                <li>Диваны</li>
+                <li>Матрасы</li>
+                <li>Кухни</li>
+                <li>Кровати</li>
+                <li>Прихожие</li>
+                <li>Акции и спецпредложения</li>
+                <li>Карта лояльности</li>
             </ul>
         </div>
     </div>
-</div> 
-<div>
-    <div class="container">
-        <div class="linemenu">
-            <a href="#">Распродажа <img class="icon"  src="../MEBEL/images/salestar.png" alt=""></a>
-            <a href="#">Диваны</a>
-            <a href="#">Матрасы</a>
-            <a href="#">Кухни</a>
-            <a href="#">Кровати</a>
-            <a href="#">Прихожие</a>
-            <a href="#">Акции и спецпредложения</a>
-            <a href="#">Карта лояльности</a>
-        </div>
-    </div>
-</div>
-<div>
-    <div class="container">
-        <div class="banner clearfix" >
-            <div class="slide"><img src="../MEBEL/images/banner_01.png" alt=""></div>
-                <div class="rightslide">
-                <span>Успей купить!</span> <br>
-                <span>11:22:11</span> <br>
-                <img src="../MEBEL/images/badban.png" alt="">
-                    <div class="skidka">Скидка -20%</div>
+    <div class="banner">
+        <div class="container">
+            <img src="../MEBEL/images/banner_01.png" alt="">
+            <div class="banner1">
+                <span>Успей купить!</span><br>
+                <span>11:22:11</span><br>
+                <img class="bed" src="../MEBEL/images/badban.png" alt="">
+                    <div> Скидка <br> <b>-20%</b></div>
                 <span>Кровать Динс 90 Velvet <br> Mustard</span> <br>
-                <p><img src="../MEBEL/images/salestar.png" alt=""><span>4.6</span> 5 отзывов</p> <br>
-                <span></span> <br>
-                <span>83 323 р/шт</span><br>
-                <span>83 323 р/шт</span> 
-                <button>В корзину</button>
+                <p><span> <img class="star" src="../MEBEL/images/salestar.png" alt="">4.6&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span>5 отзывов</span></p> <br>
+                <span>83 323 р/шт</span>
+                <p><span>83 323 &#8381;/шт</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button>В корзину</button></p>
+
             </div>
         </div>
     </div>
-</div>
+    <div class="novinki">
+        <div class="container"><span>Новинки <img src="../MEBEL/images/arrow.png" alt=""></span></div>
+    </div>
+    <div class="dins">
+        <div class="container">
+            <div class="beditem"><img src="../MEBEL/images/bed.png" alt=""></div>
+            <div class="beditem"><img src="../MEBEL/images/bed.png" alt=""></div>
+            <div class="beditem"><img src="../MEBEL/images/bed.png" alt=""></div>
+            <div class="beditem"><img src="../MEBEL/images/bed.png" alt=""></div>
+            <div class="beditem"><img src="../MEBEL/images/bed.png" alt=""></div>
+            <div class="beditem"><img src="../MEBEL/images/bed.png" alt=""></div>
+        </div>
+    </div>
+
 </body>
 </html>
