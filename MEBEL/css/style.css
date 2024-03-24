@@ -50,14 +50,15 @@
     display: inline-block;
     padding-left: 25px;
 }
-.clearfix {
+.wrap.clearfix {
     content: "";
     display: block;
     clear: both; 
     background-color: #eaedef;
     height: 30px;
+    width: 1280px;
 }
-.header .clearfix {
+.header.clearfix {
     height: 37px;
     background: #fff;
     margin-top: 5px;
@@ -128,6 +129,9 @@
     width: 18px;
     height: 18px;
 }
+.container .linemenu {
+    clear: both;
+}
 .linemenu a {
     padding-right: 15px;
     font-family: Roboto;
@@ -136,28 +140,64 @@
     color: #333;
     text-decoration: none;
 }
-.banner .clearfix {
-    display: inline;
+.banner.clearfix {
+    display: inline-block;
+    height: 434 px;
+    background: #fff;
 }
-.banner {
+.slide {
     float: left;
-    border: 1px solid rgba(51, 51, 51, 0.15);
+    margin-right: 10px;
+}
+.slide img {
     border-radius: 4px;
-    width: 305px;
+    width: 950px;
     height: 434px;
 }
-.banner1 {
+.rightslide {
     float: right;
     border: 1px solid rgba(51, 51, 51, 0.15);
     border-radius: 4px;
-    width: 305px;
+    width: 300px;
     height: 434px;
-    background: #333;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .banner .clearfix::after {
     content: ""; 
     display: block; 
     clear: both;
-    background: #fff;
+}
+.skidka {
+    position: absolute;
+    border-radius: 32px;
+    width: 64px;
+    height: 64px;
+    background: #ba257d;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #faed38;
+    text-align: center;
+}
+.rightslide button {
+    border-radius: 4px;
+    width: 108px;
+    height: 26px;
+    background: #ba257d;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 140%;
+    color: #fff;
+    border: none;
 }
 
