@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex {
+  display: flex;
+}
+
+.flex-item {
+  /* Просто для демонстрации */
+  color: white;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.flex-item:nth-child(1) {
+  background-color: cornflowerblue;
+  /* Зададим чтобы первый "налазил" на второй */
+  z-index: 1;
+}
+tr {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+td {
+  border: 1px solid gray;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+/* tr {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  td {
+    border: 1px solid gray;
+  } */
+
+.item {
+  /* Просто для демонстрации */
+  background-color: orange;
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+    </style>
+       
+<body>
+    https://ru.stackoverflow.com/questions/588567/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-float%D1%8B-%D0%B8%D0%BB%D0%B8-flex%D1%8B
+</body>
+</html>.flex-item:nth-child(2) {
+    background-color: lime;
+    margin-left: -20px;
+  }
+  <div class="flex">
+    <div class="flex-item">
+      One
+    </div>
+    <div class="flex-item">
+      Two
+    </div>
+  </div>
+  <hr>
+  
+  <div class="container">
+    <div class="item">
+      One
+    </div>
+    <div class="item">
+      Two
+    </div>
+    <div class="item">
+      Three
+    </div>
+    <div class="item">
+      Four
+    </div>
+    <div class="item">
+      Five
+    </div>
+  </div>
