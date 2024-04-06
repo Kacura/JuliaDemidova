@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    border: dotted gold 2px;
+}
+.ball {
+    position: absolute;
+    right: 45%;
+    top: 40%;
+    border-radius: 100%;
+    background: transparent;
+}
+.ball img {
+    width: 100px;
+    border-radius: 100%;
+}
+@keyframes AnimBall {
+    from { width: 100px;}
+    to {width: 150px;} 
+}
+@keyframes Animback {
+    from {background: transparent;}
+    to {width: 200px; background: lightskyblue;}
+}
+.ball img{
+    animation: AnimBall 2s infinite; 
+}
+.ball {
+    animation: Animback 2s infinite;
+}
