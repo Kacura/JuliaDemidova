@@ -47,7 +47,7 @@
 }
 .line li {
     display: inline;
-    padding-right: 50px;
+    padding-right: 47px;
 
 }
 .logo {
@@ -91,5 +91,142 @@
     text-align: center;
     color: #000;
 }
+.haslo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    padding-left: 175px;
+    padding-top: 57px;
+}
+.haslo h3:first-of-type {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 146%;
+    letter-spacing: -0.01em;
+    color: #000;
+    padding-bottom: 34px;
+}
+.haslo h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    color: #000;
+    padding-bottom: 34px;
+}
+.haslo h3:last-of-type {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #dc051f;
+    padding-bottom: 34px;
+}
+.main .haslo button {
+    border-radius: 10px;
+    width: 413px;
+    height: 58px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #dc051f;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 175%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+}
+.slide {
+    position: absolute;
+    width: 434px;
+    height: 434px;
+    border-radius: 100%;
+    right: 305px;
+    top: 52px;
+}
+.sad{
+    position: absolute;
+    right: 200px;
+    bottom: -135px;
+}
+.lucky {
+    position: absolute;
+    bottom: -135px;
+    left: 1272px;
+}
+.whatit {
+    background: #ffe9b7;
+    height: 680px;
+    padding-left: 175px;
+    position: relative;
+}
+.whatit h3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 97%;
+    letter-spacing: -0.01em;
+    color: #000;
+    height: 35px;
+    padding-top: 71px;
+    text-align: start;
+    padding-bottom: 56px;
+}
+.whatit h4 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 146%;
+    letter-spacing: -0.01em;
+    color: #000;
+    padding-bottom: 40px;
+    }
+.dela {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: -0.01em;
+    color: #000;
+}
+.cat {
+    position: absolute;
+}
+.speech {
+    position: absolute;
+    left: 400px;
+    bottom: 210px;
+}
+.words {
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 179%;
+    letter-spacing: -0.01em;
+    color: #000;
+    left: 446px;
+    bottom: 262px;
+    }
+    .describe {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        width: 439px;
+        height: 451px;
+        border: solid red 2px;
+        right: 245px;
+        bottom: 85px;
+        align-items: center;
+        justify-items: center;
+    }
+   
+   
 
 
