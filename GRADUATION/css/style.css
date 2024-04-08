@@ -145,7 +145,6 @@
     position: absolute;
     width: 434px;
     height: 434px;
-    border-radius: 100%;
     right: 305px;
     top: 52px;
 }
@@ -153,11 +152,13 @@
     position: absolute;
     right: 200px;
     bottom: -135px;
+    z-index: 1;
 }
 .lucky {
     position: absolute;
     bottom: -135px;
     left: 1272px;
+    z-index: 1;
 }
 .whatit {
     background: #ffe9b7;
@@ -220,11 +221,32 @@
         grid-template-rows: 50% 50%;
         width: 439px;
         height: 451px;
-        border: solid red 2px;
         right: 245px;
         bottom: 85px;
         align-items: center;
         justify-items: center;
+    }
+    .descr {
+        text-align: center;
+        background: url(../images/backround.svg) no-repeat top center;
+    }
+    .whatit .describe .pod {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 167%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #000;
+    }
+    .whatit .describe .poddva {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 179%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #000;
     }
    
    
