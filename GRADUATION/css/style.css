@@ -218,17 +218,24 @@
         position: absolute;
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
         width: 439px;
         height: 451px;
         right: 245px;
         bottom: 85px;
         align-items: center;
         justify-items: center;
+        text-align: center;
+    }
+    .describe img {
+        margin: 12px 12px;
     }
     .descr {
         text-align: center;
         background: url(../images/backround.svg) no-repeat top center;
+        border-radius: 100%;
+        width: 90px;
+        height: 90px;
     }
     .whatit .describe .pod {
         font-family: Montserrat;
@@ -248,6 +255,123 @@
         text-align: center;
         color: #000;
     }
+    .promo {
+        padding-left: 175px;
+        position: relative;
+    }
+    .promo h3 {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 97%;
+        letter-spacing: -0.01em;
+        color: #000;
+        height: 35px;
+        padding-top: 71px;
+        text-align: start;
+        padding-bottom: 56px;
+    }
+    .promo button {
+        position: absolute;
+        width: 234px;
+        height: 40px;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 219%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #000;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        border: none;
+        background-color: #fff;
+        left: 285px;
+        top: 390px;
+    }
+    .promoimg {
+        width: 1038px;
+        height: 630px;
+        display: grid;
+        align-items: center;
+        justify-items: start;
+        grid-template-columns: 370px 375px 1fr;
+        grid-template-rows: 50% 50%;
+        grid-column-gap: 7px;
+        grid-row-gap: 7px;
+    }
+    .banty {
+        width: 366px;
+        height: 298px;
+    }
+    .lepka {
+        width: 371px;
+        height: 298px;
+    }
+    .camer {
+        width: 268px;
+        height: 317px;
+    }
+    .sound {
+        width: 254px;
+        height: 318px;
+    }
+    .mamki {
+        width: 767px;
+        height: 317px;
+    }
+    .camerimg {
+        grid-column: 3/4;
+        padding-top: 19px;
+    }
+   .soundimg {
+    grid-row: 2;
+    grid-column: 1/4;
+   }
+   .visit {
+    height: 680px;
+    padding-left: 175px;
+    position: relative;
+   }
+   .visit h3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 153%;
+    letter-spacing: -0.01em;
+    color: #000;
+    height: 35px;
+    padding-top: 71px;
+    text-align: start;
+    padding-bottom: 120px;
+   }
+   .visitflex {
+    display: flex;
+    justify-content: space-between;
+    width: 1038px;
+   }
+   .opisan {
+    width: 1038px;
+    display: flex;
+    justify-items: left;
+    flex-direction: column;
+   }
+   .opisan span {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+    color: #000;
+   }
+   .opisan p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 179%;
+    letter-spacing: -0.01em;
+    color: #000;
+    }
+
    
    
 
