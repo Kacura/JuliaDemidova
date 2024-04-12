@@ -355,6 +355,10 @@
     justify-items: left;
     flex-direction: column;
    }
+   .opisan img {
+    float: left;
+    padding-right: 20px;
+   }
    .opisan span {
     font-family: Montserrat;
     font-weight: 600;
@@ -370,8 +374,72 @@
     line-height: 179%;
     letter-spacing: -0.01em;
     color: #000;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
-
+   .meethero {
+    height: 671px;
+    position: relative;
+    background: url(../images/backimg.png) left top repeat;
+    padding-left: 175px;
+   }
+   .pervy {
+    position: absolute;
+    right: -0px;
+    top: -53px;
+   }
+   .vtoro {
+    position: absolute;
+    top: -53px;
+    right: 162px;
+   }
+   .meethero h3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 97%;
+    letter-spacing: -0.01em;
+    color: #000;
+    height: 35px;
+    padding-top: 71px;
+    text-align: start;
+    padding-bottom: 56px;
+}
+.meethero p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: -0.01em;
+    color: #000;
+    padding-bottom: 40px;
+}
+.signup {
+    position: absolute;
+    text-align: center;
+    right: 245px;
+    bottom: 135px;
+}
+.signup span {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #000;
+}
+.signup button {
+    border-radius: 10px;
+    width: 273px;
+    height: 58px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #dc051f;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+}
    
    
 
