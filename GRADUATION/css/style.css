@@ -80,7 +80,7 @@
     color: #000;
     padding-left: 15px;
     }
-.main button:first-of-type {
+.main ul li button:first-of-type {
     border: 2px solid #dc051f;
     border-radius: 20px;
     width: 256px;
@@ -101,6 +101,7 @@
     position: relative;
     padding-left: 175px;
     padding-top: 57px;
+
 }
 .haslo h3:first-of-type {
     font-family: Montserrat;
@@ -142,6 +143,7 @@
     letter-spacing: -0.01em;
     text-align: center;
     color: #fff;
+    border: none;
 }
 .slide {
     position: absolute;
@@ -149,6 +151,9 @@
     height: 434px;
     right: 305px;
     top: 52px;
+}
+.slide:hover {
+ z-index: -1;
 }
 @keyframes rotate {
     from {
@@ -166,6 +171,8 @@
     z-index: 1;
     opacity: 1;
     cursor: grab;
+}
+.sad:hover {
     animation: rotate 3s infinite;
 }
 .lucky {
@@ -836,7 +843,81 @@
    .footer {
     height: 119px;
     background: #494949;
+    padding-top: 29px;
    }
+   .footline {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+.footline li {
+    display: inline;
+    padding-right: 47px;
+}
+.footer hr {
+    width: 1440px;
+    color: #c4c4c4;
+    height: 1px;
+}
+.footpin {
+    background: #c4c4c4;
+    border-radius: 100%;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    padding-top: 9px;
+    margin-right: 15px;
+}
+.fa-solid {
+    font-size: 20px;
+    color: dimgrey;
+}
+.footphone {
+    background: #c4c4c4;
+    border-radius: 100%;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    padding-top: 9px;
+    margin-right: 15px;
+}
+.footline li:nth-of-type(2){
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.footline li:nth-of-type(3){
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #fff;
+    padding-left: 15px;
+    }
+    .footlogo {
+        margin-right: 200px;
+    }
+    .tradem {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 292%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #c4c4c4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+    }
+
    
 
 
