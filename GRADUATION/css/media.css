@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0px;
 }
 .uldiv ul {
     list-style: none;
@@ -32,6 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-left: 0px;
 }
 .line li {
     padding-right: 0px;
@@ -74,7 +76,10 @@
     align-items: center;
     flex-direction: column;
     padding-left: 0px;
-    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: -70px;
+    position: relative;
+    padding-top: 43px;
 }
 .haslo h3:first-of-type {
     font-family: Montserrat;
@@ -105,7 +110,7 @@
     color: #dc051f;
     padding-bottom: 205px;
 }
-.main .haslo button {
+.btn.btn-primary {
     border-radius: 10px;
     width: 258px;
     height: 36px;
@@ -118,14 +123,20 @@
     letter-spacing: -0.01em;
     text-align: center;
     color: #fff;
+    margin-top: -35px;
 }
-.slide {
+.carousel.slide {
+    position: absolute;
     width: 196px;
     height: 196px;
-    order: 4;
-    position: absolute;
     right: 60px;
-    top: 145px;
+    top: 166px;
+}
+.carousel-inner {
+    width: 196px;
+    height: 196px;
+    border-radius: 100%;
+    background: url(../images/backimg.png) repeat;
 }
 .sad{
     display: none;
@@ -139,6 +150,9 @@
     padding-left: 0px;
     position: relative;
     text-align: center;
+    margin-top: 0px;
+    width: 320px;
+    
 }
 .whatit h3 {
     font-family: Montserrat;
@@ -179,40 +193,39 @@
     width: 139px;
     height: 174px;
     left: 0px;
-    bottom: -78px;
+    bottom: -70px;
 }
 .speech {
     position: absolute;
-    left: 400px;
-    bottom: 210px;
-    left: 0px;
-    bottom: -78px;
+    left: 145px;
+    bottom: 35px;
     width: 116px;
     height: 88px;
 }
 .words {
     position: absolute;
     font-family: Montserrat;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 179%;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 167%;
     letter-spacing: -0.01em;
+    text-align: center;
     color: #000;
-    left: 446px;
-    bottom: 262px;
+    left: 159px;
+    bottom: 60px;
     }
     .describe {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
         width: 320px;
-        height: 272px;
+        height: 320px;
         align-items: center;
         justify-items: center;
         text-align: center;
         position: relative;
         right: auto;
-        margin-top: 60px;
+        margin-top: 90px;
     }
     .describe img {
         margin-top: 8px;
@@ -225,9 +238,9 @@
         width: 70px;
         height: 70px;
     }
-    /* .divpod {
-        margin-top: -112px;
-    } */
+    .divpod {
+        /* margin-top: -90px; */
+    }
     .whatit .describe .pod {
         font-family: Montserrat;
         font-weight: 700;
