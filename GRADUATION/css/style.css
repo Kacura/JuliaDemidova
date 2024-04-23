@@ -11,6 +11,11 @@
     position: relative;
     height: 700px;
 }
+.sad_lucky {
+    position: absolute;
+    right: -143px;
+    bottom: 3px;
+}
 .main p {
     height: 42px;
     width: 1440px;
@@ -40,6 +45,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 175px;
+}
+.uldiv a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
 }
 .uldiv ul {
     list-style: none;
@@ -67,6 +78,7 @@
     letter-spacing: -0.01em;
     color: #000;
     padding-left: 15px;
+    cursor: pointer;
 }
 .phone {
     width: 29px;
@@ -130,7 +142,7 @@
     color: #dc051f;
     padding-bottom: 34px;
 }
-.main .haslo button {
+.btn.btn-primary {
     border-radius: 10px;
     width: 413px;
     height: 58px;
@@ -145,16 +157,55 @@
     color: #fff;
     border: none;
 }
-.slide {
+.modal.fade {
+    text-align: center;
+}
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+    flex-direction: column;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 2.3rem;
+    outline: 0;
+}
+.modal-body input {
+    margin: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+.carousel.slide {
     position: absolute;
     width: 434px;
     height: 434px;
-    right: 305px;
-    top: 52px;
+    right: 150px;
+    top: 0px;
 }
-.slide:hover {
- z-index: -1;
+.carousel-inner {
+    width: 434px;
+    height: 434px;
+    border-radius: 100%;
+    background: url(../images/backimg.png) repeat;
 }
+
 @keyframes rotate {
     from {
       transform: rotate(0deg);
@@ -194,6 +245,7 @@
     height: 680px;
     padding-left: 175px;
     position: relative;
+    width: 1440px;
 }
 .whatit h3 {
     font-family: Montserrat;
@@ -230,7 +282,7 @@
 .speech {
     position: absolute;
     left: 400px;
-    bottom: 210px;
+    bottom: 179px;
 }
 .words {
     position: absolute;
@@ -241,7 +293,7 @@
     letter-spacing: -0.01em;
     color: #000;
     left: 446px;
-    bottom: 262px;
+    bottom: 225px;
     }
     .describe {
         position: absolute;
@@ -412,6 +464,7 @@
     position: relative;
     background: url(../images/backimg.png) left top repeat;
     padding-left: 175px;
+    width: 1440px;
    }
    .pervy {
     position: absolute;
@@ -457,7 +510,7 @@
     position: absolute;
     text-align: center;
     right: 245px;
-    bottom: 135px;
+    bottom: 110px;
 }
 .signup span {
     font-family: Montserrat;
@@ -607,6 +660,7 @@
     position: relative;
     padding-left: 175px;
     padding-top: 57px;
+    width: 1440px;
 }
 .grayback span {
     font-family: Montserrat;
@@ -844,6 +898,7 @@
     height: 119px;
     background: #494949;
     padding-top: 29px;
+    width: 1440px;
    }
    .footline {
     list-style: none;
@@ -916,6 +971,11 @@
         justify-content: center;
         align-items: center;
         height: 25px;
+    }
+    .mapiframe {
+        width: 1440px;
+        text-align: center;
+        background: url(../images/backimg.png) left top repeat;
     }
 
    

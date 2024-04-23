@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
     rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/css_icon/all.css">
     <link rel="stylesheet" href="css/media.css">
@@ -17,14 +19,14 @@
     <div class="wrap">
         <div class="container">
             <div class="main">
-                <div><img class="sad" src="images/urod1.png" >
+                <div class="sad_lucky"><img class="sad" src="images/urod1.png" >
                     <img class="lucky" src="images/urod2.png" ></div>
                 <p><span>Мультистория &nbsp;</span><span> - мастерская мультфильмов</span></p><br>
                 <div class="uldiv">
                 <ul class="line">
                     <li><img class="logo" src="images/logo.png" alt="logo"></li>
                     <img class="pin" src="images/map_pin.png">
-                    <li>г. Самара <br><b><a href="map.html" target="_blank">ул. Печерская, 20А</a></b></li>
+                    <li><a href="map.html" target="_blank"> г. Самара <br><b>ул. Печерская, 20А</b></a></li>
                     <img class="phone" src="images/phone_icon.png" >
                     <li>8 (995) 131-04-90<br>Позвоните нам</li>
                     <li><button>Заказать звонок</button></li>
@@ -35,8 +37,58 @@
                     <h1>Мультфильмы <br>
                         своими руками</h1>
                     <h3>Каждую неделю!</h3>
-                    <button>Узнайте расписание</button> <br>
-                    <img class="slide" src="images/slider.png">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Узнайте расписание
+                      </button><br>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Заполните форму<br>
+                                 и мы сами перзвоним Вам<br> в ближайшее время</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input type="text" name="NAME" value="   Имя"> <br>
+                              <input type="text" name="telef" value="   Телефон"> <br>
+                            </div>
+                            <div class="modal-footer">
+                              <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button> -->
+                              <button type="button" class="btn btn-primary">Отправить</button>
+                              <div> <span>Нажимая на кнопку “Отправить”, <br>
+                                вы даете согласие на обработку своих персональных данных</span></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/slider.png" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/slider1.png" class="d-block w-100" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/slider2.png" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -246,6 +298,7 @@
             </div>
         </div>
         
-    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 </body>
 </html>
